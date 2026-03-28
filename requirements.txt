@@ -1,0 +1,15 @@
+# Core Deep Learning Libraries
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Training & Tracking Utilities
+tqdm>=4.65.0
+tensorboard>=2.13.0
+
+# Evaluation & Metrics
+scikit-learn>=1.2.2
+matplotlib>=3.7.1
+numpy>=1.24.0
+
+# Web Deployment (Chuẩn bị cho bước làm giao diện trực quan)
+gradio>=3.40.0
