@@ -4,10 +4,10 @@
 ![Gradio](https://img.shields.io/badge/Gradio-FF7C00?style=for-the-badge&logo=gradio&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-## 📌 Project Overview
+## Project Overview
 This repository contains a complete deep learning pipeline for image classification on the CIFAR-10 dataset. Instead of relying on pre-trained models, I designed and trained a **custom Mini-InceptionNet** from scratch. The project demonstrates core computer vision concepts, robust training methodologies, and model deployment via an interactive web interface.
 
-## 🚀 Key Features
+## Key Features
 * **Custom Architecture**: Built a lightweight version of the Inception network featuring parallel 1x1, 3x3, and 5x5 convolutional branches to capture multi-scale spatial features.
 * **Robust Training Pipeline**: Implemented Data Augmentation, `CosineAnnealingLR` scheduler, and SGD with Momentum & Weight Decay to ensure smooth convergence.
 * **Overfitting Prevention**: Integrated **Model Checkpointing** and **Early Stopping** mechanisms to capture the optimal model weights automatically.
